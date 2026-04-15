@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Politica de Privacidad | BoviTrack</title>
+    <style>
+      :root {
+        --bg: #f4f0e8;
+        --surface: #fffdf9;
+        --ink: #18202b;
+        --muted: #5d6673;
+        --brand: #010126;
+        --brand-soft: #11204a;
+        --accent: #c9963b;
+        --border: #e8decd;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(201, 150, 59, 0.18), transparent 28%),
+          linear-gradient(180deg, #fcf7ee 0%, var(--bg) 100%);
+      }
+
+      .shell {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 40px 0 72px;
+      }
+
+      .hero {
+        padding: 32px;
+        border-radius: 28px;
+        background: linear-gradient(135deg, var(--brand) 0%, var(--brand-soft) 68%, #24366b 100%);
+        color: #ffffff;
+        box-shadow: 0 24px 60px rgba(1, 1, 38, 0.24);
+      }
+
+      .eyebrow {
+        display: inline-block;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.12);
+        color: #f7ebd3;
+        font-size: 13px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 18px 0 10px;
+        font-size: clamp(34px, 5vw, 52px);
+        line-height: 1.02;
+      }
+
+      .hero p {
+        max-width: 680px;
+        margin: 0;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .meta {
+        margin-top: 18px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+      }
+
+      .content {
+        margin-top: 22px;
+        padding: 32px;
+        border-radius: 28px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        box-shadow: 0 18px 44px rgba(62, 49, 21, 0.08);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        color: var(--brand);
+        font-size: 28px;
+      }
+
+      h3 {
+        margin: 28px 0 10px;
+        color: var(--brand);
+        font-size: 22px;
+      }
+
+      p,
+      li {
+        font-size: 17px;
+        line-height: 1.7;
+        color: var(--ink);
+      }
+
+      ul {
+        padding-left: 20px;
+        margin: 12px 0 0;
+      }
+
+      .notice {
+        margin: 24px 0;
+        padding: 18px 20px;
+        border-left: 4px solid var(--accent);
+        border-radius: 18px;
+        background: #fbf3e5;
+      }
+
+      .placeholder {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 999px;
+        background: #efe7d7;
+        color: var(--brand);
+        font-size: 14px;
+      }
+
+      footer {
+        margin-top: 24px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media (max-width: 720px) {
+        .shell {
+          width: min(100% - 20px, 920px);
+          padding-top: 20px;
+        }
+
+        .hero,
+        .content {
+          padding: 22px;
+          border-radius: 22px;
+        }
+
+        p,
+        li {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <span class="eyebrow">BoviTrack</span>
+        <h1>Politica de Privacidad</h1>
+        <p>
+          Este documento describe como BoviTrack trata la informacion operativa de bovinos,
+          procedimientos, alertas, fotografias y datos tecnicos necesarios para funcionar en campo.
+        </p>
+        <div class="meta">Ultima actualizacion: 2026-04-13</div>
+      </section>
+
+      <section class="content">
+        <h2>Resumen</h2>
+        <p>
+          BoviTrack es una aplicacion de gestion operativa ganadera. Puede almacenar informacion en
+          el dispositivo y sincronizarla con infraestructura central cuando existe conectividad.
+        </p>
+
+        <h3>1. Quienes somos</h3>
+        <p>
+          BoviTrack es una aplicacion orientada a la gestion operativa de bovinos, registros
+          sanitarios, procedimientos, alertas y datos relacionados con la operacion ganadera.
+        </p>
+
+        <h3>2. Que informacion puede tratar la aplicacion</h3>
+        <ul>
+          <li>Identificacion de bovinos.</li>
+          <li>Aretes, alias, raza, sexo, categoria y fechas relevantes.</li>
+          <li>Historial de procedimientos y alertas.</li>
+          <li>Fotografias asociadas a bovinos.</li>
+          <li>Configuraciones locales de la cuenta y de la aplicacion.</li>
+          <li>Informacion tecnica basica necesaria para sincronizacion y funcionamiento.</li>
+        </ul>
+
+        <h3>3. Como se usa la informacion</h3>
+        <ul>
+          <li>Permitir el uso operativo de la app en campo.</li>
+          <li>Guardar registros locales en el dispositivo.</li>
+          <li>Sincronizar informacion con el backend cuando exista conectividad.</li>
+          <li>Mostrar historiales, alertas y seguimiento del bovino.</li>
+          <li>Mejorar estabilidad, soporte y continuidad operativa del servicio.</li>
+        </ul>
+
+        <h3>4. Almacenamiento local y sincronizacion</h3>
+        <p>
+          BoviTrack puede operar en modo offline. Por ello, parte de la informacion se almacena
+          localmente en el dispositivo y otra parte puede sincronizarse con infraestructura central
+          administrada por el operador del sistema.
+        </p>
+
+        <h3>5. Camara y fotos</h3>
+        <p>
+          La aplicacion puede solicitar acceso a la camara o galeria del dispositivo para asociar
+          fotografias a los bovinos. Estas imagenes se usan exclusivamente con fines operativos
+          dentro de la app y de su sincronizacion asociada.
+        </p>
+
+        <h3>6. Comparticion de datos</h3>
+        <p>No se vende la informacion de los usuarios ni de los registros ganaderos.</p>
+        <p>La informacion puede compartirse solo en los siguientes casos:</p>
+        <ul>
+          <li>Cuando sea necesaria para la sincronizacion entre el dispositivo y el backend.</li>
+          <li>Cuando el titular de la cuenta o la organizacion administradora del sistema lo autorice.</li>
+          <li>Cuando exista una obligacion legal aplicable.</li>
+        </ul>
+
+        <h3>7. Publicidad y terceros</h3>
+        <p>
+          La aplicacion integra actualmente el SDK de Google Mobile Ads en una fase inicial de
+          pruebas controladas dentro de la pantalla Mas.
+        </p>
+        <ul>
+          <li>Se utilizan IDs oficiales de prueba de Google.</li>
+          <li>No se han activado anuncios productivos para monetizacion real.</li>
+          <li>No se ha configurado consentimiento UMP ni segmentacion personalizada.</li>
+        </ul>
+        <p>
+          Antes de una publicacion abierta con monetizacion real, esta politica debera actualizarse
+          para describir con precision los servicios publicitarios activos y cualquier mecanismo de
+          consentimiento aplicable.
+        </p>
+
+        <h3>8. Seguridad</h3>
+        <p>
+          Se aplican medidas razonables para proteger la informacion almacenada localmente y la
+          informacion sincronizada. Sin embargo, ningun sistema puede garantizar seguridad absoluta.
+        </p>
+
+        <h3>9. Retencion de datos</h3>
+        <p>
+          Los datos se conservan durante el tiempo necesario para la operacion del servicio,
+          continuidad del historial y soporte del producto, salvo que el responsable del sistema
+          defina una politica diferente o exista una obligacion legal distinta.
+        </p>
+
+        <h3>10. Derechos y contacto</h3>
+        <p>
+          Si necesitas solicitar actualizacion, correccion o eliminacion de informacion, o tienes
+          dudas sobre privacidad, puedes escribir a
+          <strong>vlad_varg6005@live.com</strong>.
+        </p>
+
+        <h3>11. Publicacion</h3>
+        <p>
+          Esta politica debe mantenerse accesible publicamente y vincularse desde la ficha de
+          Google Play y, cuando sea posible, desde la propia aplicacion.
+        </p>
+
+        <footer>
+          Documento base para publicacion de pruebas internas y preparacion de ficha en Google Play.
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
